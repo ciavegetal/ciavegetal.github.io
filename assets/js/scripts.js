@@ -1401,12 +1401,22 @@ function setLang(l) {
   if (ctaKo) ctaKo.style.display = l === 'ko' ? 'flex' : 'none';
   if (ctaIntl) ctaIntl.style.display = (l !== 'pt' && l !== 'ja' && l !== 'ko') ? 'flex' : 'none';
   // B2B export mailto: PT=falecom, others=sales
+  const ptEmail = 'mailto:falecom@ciavegetal.com.br';
+  const intlEmail = 'mailto:sales@ciavegetal.com.br';
   const b2bLink = document.getElementById('b2b-export-link');
   if (b2bLink) {
-    b2bLink.href = l === 'pt'
-      ? 'mailto:falecom@ciavegetal.com.br'
-      : 'mailto:sales@ciavegetal.com.br';
+    b2bLink.href = l === 'pt' ? ptEmail : intlEmail;
   }
+  // Footer contact email
+  const footerEmail = document.getElementById('footer-contact-email');
+  if (footerEmail) {
+    footerEmail.href = l === 'pt' ? ptEmail : intlEmail;
+    footerEmail.textContent = l === 'pt' ? 'falecom@ciavegetal.com.br' : 'sales@ciavegetal.com.br';
+  }
+  // CTA B2B buttons (JA, KO, INTL sections)
+  document.querySelectorAll('.b2b-email-link').forEach(el => {
+    el.href = l === 'pt' ? ptEmail : intlEmail;
+  });
 
 }
 
