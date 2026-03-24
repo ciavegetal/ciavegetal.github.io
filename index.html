@@ -357,7 +357,7 @@
       <p class="section-eyebrow" data-t="receitas_label">Receitas</p>
       <h2 class="section-title" data-t="receitas_title">Na cozinha com <em>Cia Vegetal</em></h2>
     </div>
-    <a href="#receitas" class="btn-outline" data-t="ver_todas">Ver todas &rarr;</a>
+    <a href="#" class="btn-outline" data-t="ver_todas" onclick="toggleAllRecipes(this);return false;">Ver todas &rarr;</a>
   </div>
   <div class="recipes-grid">
     <!-- Recipe 1 -->
@@ -385,6 +385,77 @@
         <p class="recipe-tag" data-t="r3_tag">Com Queijo Cia Vegetal · 25 min</p>
         <h3 data-t="r3_title">Pastel Napolitano</h3>
         <p data-t="r3_desc">Massa frita recheada com queijo derretido, tomate e orégano.</p>
+      </div>
+    </div>
+    <!-- Recipes 4-13 (hidden until "Ver todas" is clicked) -->
+    <div class="recipe-card reveal" style="cursor:pointer;display:none;" class="recipe-extra" onclick="openModal('r4')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_25.jpeg" alt="Croque Monsieur Vegetal" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Original · 15 min · Fácil</p>
+        <h3>Croque Monsieur Vegetal</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r5')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_26.jpeg" alt="Pão sem Queijo Recheado" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Pão sem Queijo · 25 min · Fácil</p>
+        <h3>Pão sem Queijo Recheado com Manteiga e Ervas</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r6')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_27.jpeg" alt="Risoto Cremoso" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Defumado · 40 min · Médio</p>
+        <h3>Risoto Cremoso com Queijo Defumado</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r7')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_28.jpeg" alt="Nachos" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Páprica · 20 min · Fácil</p>
+        <h3>Nachos com Molho de Queijo Páprica</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r8')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_29.jpeg" alt="Bolo de Cenoura" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Mantegana · 50 min · Médio</p>
+        <h3>Bolo de Cenoura com Cobertura de Mantegana</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r9')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_30.jpeg" alt="Quiche de Espinafre" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Original · 55 min · Médio</p>
+        <h3>Quiche de Espinafre com Queijo Original</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r10')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_31.jpeg" alt="Bruschetta" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Mantegana · 20 min · Fácil</p>
+        <h3>Bruschetta com Mantegana e Tomate Confit</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r11')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_32.jpeg" alt="Lasanha" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Original · 75 min · Avançado</p>
+        <h3>Lasanha à Bolonhesa de Lentilha com Queijo Original</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r12')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_33.jpeg" alt="Panquecas" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Defumado · 30 min · Médio</p>
+        <h3>Panquecas Recheadas com Queijo Defumado</h3>
+      </div>
+    </div>
+    <div class="recipe-card reveal recipe-extra" style="cursor:pointer;display:none;" onclick="openModal('r13')">
+      <div class="recipe-img-wrap"><img class="recipe-img" src="assets/img_34.jpeg" alt="Fondue" loading="lazy"></div>
+      <div class="recipe-body">
+        <p class="recipe-tag">Com Queijo Páprica · 25 min · Fácil</p>
+        <h3>Fondue Vegetal de Queijo Páprica</h3>
       </div>
     </div>
   </div>
