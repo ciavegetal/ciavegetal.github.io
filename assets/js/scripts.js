@@ -989,14 +989,7 @@ document.addEventListener('keydown', function(e) {
 // Ensure reveals work on scroll too
 window.addEventListener('scroll', function() {
   const vh = window.innerHeight || document.documentElement.clientHeight;
-  document.querySelectorAll('.reveal:n
-
-
-
-
-
-
-ot('.visible')).forEach(el => {
+  document.querySelectorAll('.reveal:not(.visible)').forEach(el => {
     const rect = el.getBoundingClientRect();
     if (rect.top <= vh) el.classList.add('visible');
   });
