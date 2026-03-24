@@ -325,7 +325,7 @@ footer{background:var(--text);color:white;padding:72px 72px 36px;}
 
 .btn-fill svg,.btn-outline svg,.btn-wa svg{width:16px;height:16px;flex-shrink:0;stroke:currentColor;fill:none;}
 /* â”€â”€ ABOUT US SECTION â”€â”€ */
-.about-us-intro{padding:72px 72px 0;background:var(--beige);}
+.about-us-intro{padding:24px 72px 0;background:var(--beige);}
 .about-us-intro .section-eyebrow{color:var(--coral);}
 .about-us-intro h2{font-family:'Playfair Display',serif;font-size:36px;font-weight:900;color:var(--text);line-height:1.2;margin-bottom:32px;}
 .about-us-intro h2 em{color:var(--coral);font-style:italic;}
