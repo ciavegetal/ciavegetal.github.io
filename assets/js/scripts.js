@@ -1011,3 +1011,29 @@ window.addEventListener('DOMContentLoaded', () => {
     setLang(langParam);
   }
 });
+
+// Safety net: force all hero + reveal elements visible after 1.5s
+// This catches cases where CSS animations or IntersectionObserver fail
+setTimeout(function() {
+  // Force hero visible
+  var heroLeft = document.querySelector('.hero-left');
+  if (heroLeft) heroLeft.classList.add('hero-loaded');
+  document.body.classList.add('hero-loaded');
+
+  // Force all reveal elements in viewport visible
+  var vh = window.innerHeight || document.documentElement.clientHeight;
+  document.querySelectorAll('.reveal:not(.visible)').forEach(function(el) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top < vh + 200) el.classList.add('visible');
+  });
+}, 1500);
+
+// Also force immediately on load event
+window.addEventListener('load', function() {
+  document.body.classList.add('hero-loaded');
+  var vh = window.innerHeight || document.documentElement.clientHeight;
+  document.querySelectorAll('.reveal:not(.visible)').forEach(function(el) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top < vh + 200) el.classList.add('visible');
+  });
+});

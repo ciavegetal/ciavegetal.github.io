@@ -219,8 +219,14 @@ footer{background:var(--text);color:white;padding:72px 72px 36px;}
 
 /* â”€â”€ REVEAL â”€â”€ */
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;}
-.reveal.visible{opacity:1;transform:none;}
-.reveal.visible{opacity:1;transform:none;}
+.reveal.visible{opacity:1 !important;transform:none !important;}
+
+/* â”€â”€ FORCE HERO VISIBLE (safety net if animation fails) â”€â”€ */
+.hero-loaded .eyebrow,
+.hero-loaded .hero h1,
+.hero-loaded .hero-desc,
+.hero-loaded .hero-actions,
+.hero-loaded .hero-flag{opacity:1 !important;transform:none !important;}
 
 /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    MOBILE-FIRST RESPONSIVE
