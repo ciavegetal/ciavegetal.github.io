@@ -12,7 +12,8 @@ const TICKERS = {
   ja: ['100%プラントベース','精密発酵','ブラジル産','乳製品不使用','グルテンフリー','人工香料不使用','GMOフリー','本当に溶ける','ブラジル産原料'],
   mn: ['100% Ургамлын','Нарийн Исгэлт','Бразилд Хийсэн','Сүүгүй','Глютенгүй','Хиймэл Амтлагчгүй','GMO Байхгүй','Жинхэнэ Хайлдаг','Бразилын Найрлага'],
   ko: ['100% 식물성','정밀 발효','브라질산','유제품 없음','글루텐 없음','인공 향료 없음','GMO 없음','진짜로 녹아요','브라질 원료'],
-  ar: ['نباتي 100%','تخمير دقيق','صُنع في البرازيل','خالٍ من الألبان','خالٍ من الغلوتين','بلا نكهات صناعية','خالٍ من المعدلات','يذوب فعلاً','مكونات برازيلية']
+  ar: ['نباتي 100%','تخمير دقيق','صُنع في البرازيل','خالٍ من الألبان','خالٍ من الغلوتين','بلا نكهات صناعية','خالٍ من المعدلات','يذوب فعلاً','مكونات برازيلية'],
+  th: ['100% แพลนต์เบส','การหมักแม่นยำ','ผลิตในบราซิล','ปราศจากนม','ปราศจากกลูเตน','ไม่มีสารแต่งกลิ่นรส','ปราศจาก GMO','ละลายจริง','วัตถุดิบบราซิล']
 };
 
 const T = {
@@ -1291,6 +1292,100 @@ copyright:"· 2026 Companhia Vegetal · 브라질리아, DF, 브라질 · 모든
     ver_todas:"← عرض الكل",ver_menos:"↑ إخفاء",
     receitas_carousel_title:"اختر وصفتك",
 copyright:"· 2026 Companhia Vegetal · برازيليا، DF، البرازيل · جميع الحقوق محفوظة"
+  },
+  th: {
+    r1_tag:"กับชีส Cia Vegetal · 15 นาที",r1_title:"ทาลีอาแตลเลมะนาวกับมันเตกานา",
+    r1_desc:"พาสต้าสดกับมันเตกานาละลาย น้ำมะนาว เซสต์ และเคเปอร์ เรียบง่าย หรูหรา น่าทึ่ง",
+    r1_time:"20 นาที",r1_diff:"ง่าย",r1_serv:"2 ที่",
+    r2_tag:"กับชีสออริจินัล · 35 นาที",r2_title:"พิซซ่าชีสละลายจริง",
+    r2_desc:"แป้งบาง ซอสมะเขือเทศโฮมเมด ชีสออริจินัล Cia Vegetal สไลซ์ อบแล้วละลาย ประทับใจเหมือนกัน",
+    r2_time:"35 นาที",r2_diff:"ปานกลาง",r2_serv:"4 ที่",
+    r3_tag:"กับชีสรมควัน & พาปริก้า · 15 นาที",r3_title:"กระดานชีสพืชกับแยมและถั่ว",
+    r3_desc:"รวมสามรสชาติ Cia Vegetal บนกระดานสวยงามกับมะเดื่อ น้ำผึ้ง ถั่ว และขนมปังช่างฝีมือ",
+    r3_time:"15 นาที",r3_diff:"ง่าย",r3_serv:"6 ที่",
+    testi_eyebrow:"เสียงจากลูกค้า",testi_title:"หลักฐานอยู่ที่คนที่ <em>ลองแล้ว</em>",
+    t1:'"ซื้อมาด้วยความสงสัย หลังจากย่างครั้งแรก ก็ส่งรูปให้ครอบครัวทั้งหมด ชีสนี้ละลายจริง — ไม่มีทางไม่เชื่อ"',
+    t2:'"มันเตกานากลายเป็นกิจวัตรเช้าของฉัน ตอนนี้ตื่นนอนโดยไม่มีขนมปังปิ้งทาเนยไม่ได้แล้ว — และทั้งหมดนี้ปราศจากผลิตภัณฑ์นม สามีฉันก็ไม่รู้สึกถึงความต่างเลย"',
+    t3:'"ใช้ในพิซซ่าร้านอาหารมากกว่าหนึ่งปีแล้ว ลูกค้าขอเพิ่ม ไม่มีใครเดาได้ว่าเป็นวีแกน พอบอกก็แปลกใจแล้วสั่งซ้ำ"',
+    chef_role:"เชฟ · Casa Baco, บราซิเลีย",
+    peca_agora:"สั่งซื้อเลย",sua_mesa:"โต๊ะของคุณสมควรได้รับ<em>สิ่งที่ดีที่สุด</em>",
+    cta_desc:"สนใจนำผลิตภัณฑ์ของเราไปจำหน่ายในตลาดของคุณ? ติดต่อเราได้เลย!",
+    pedir_wa:"WhatsApp",b2b:"B2B",ver_lojas:"ร้านพาร์ทเนอร์",
+    onde_note:"",
+    footer_desc:"อาหารแพลนต์เบส 100%",
+    footer_produtos:"ผลิตภัณฑ์",queijo_original:"ชีสออริจินัล",queijo_defumado:"ชีสรมควัน",queijo_paprica:"ชีสพาปริก้า",pao_link:"เปา เดอ เคย์จู",
+    footer_empresa:"บริษัท",certificacoes:"การรับรอง",
+    footer_contato:"ติดต่อ",b2b_export:"B2B / ส่งออก",
+    onde_provar:"ลองชิมได้ที่ไหน",
+    pao_type:"เปา เดอ เคย์จู",
+    pao_card_name:"เปา เดอ เคย์จู",
+    pao_card_desc:"เปา เดอ เคย์จู ขนมปังชีสยอดนิยมของบราซิล แบบแพลนต์เบส ทำจากมะม่วงหิมพานต์หมัก แป้งมันสำปะหลัง และน้ำมันทานตะวัน ปราศจากแลคโตส ปราศจากกลูเตน",
+    b2b_supply:"B2B",
+    modal_mantegana:"มันเตกานาคือการปฏิวัติ: สเปรดแพลนต์เบสที่อร่อยได้โดยไม่ต้องพึ่งสารแต่งกลิ่นรส ประสิทธิภาพของมันทำให้ได้รับการยอมรับว่าเป็นหนึ่งในเนยที่ดีที่สุดในตลาด — ไม่ใช่แค่ผลิตภัณฑ์แพลนต์เบส",
+    modal_original:"ชีสรสออริจินัลของเราถูกสร้างขึ้นเพื่อเป็นทางเลือกประจำวันของชีสแบบดั้งเดิม ละลายได้ดีและสามารถใช้ในทุกสูตรอาหารที่ต้องการชีสละลายอร่อย",
+    modal_smoked:"รสชาติของชีสนี้มาจากกระบวนการรมควันด้วยไม้ธรรมชาติและกลิ่นอ่อนๆ ของเมล็ดคาราเวย์ อร่อยมากจนคนที่ไม่ใช่วีแกนก็ชอบ",
+    modal_paprika:"ชื่อบอกทุกอย่าง: ชีสพาปริก้าได้ความเผ็ดอ่อนๆ จากวัตถุดิบธรรมชาตินี้ ดีที่สุดเมื่อละลายเป็นครีมดิปกับขนมปังปิ้ง",
+    r4_tag:"ใช้ชีสออริจินัล · 15 นาที",r4_title:"ครอกมอนเซอร์วีแกน",
+    r4_desc:"แซนด์วิชอบกับชีสออริจินัล Cia Vegetal ละลาย รวดเร็วและอร่อย",
+    r4_time:"15 นาที",r4_diff:"ง่าย",r4_serv:"2 ที่",
+    r5_tag:"ใช้เปา เดอ เคย์จู · 25 นาที",r5_title:"เปา เดอ เคย์จูสอดไส้เนยสมุนไพร",
+    r5_desc:"เปิดขนมปัง ใส่มันเตกานา โรสแมรี่ และกระเทียม อบร้อนๆ เสิร์ฟ",
+    r5_time:"25 นาที",r5_diff:"ง่าย",r5_serv:"4 ที่",
+    r6_tag:"ใช้ชีสรมควัน · 40 นาที",r6_title:"ริซอตโตครีมีชีสรมควัน",
+    r6_desc:"ข้าวอาร์โบริโอครีมีโรยด้วยชีสรมควัน Cia Vegetal",
+    r6_time:"40 นาที",r6_diff:"ปานกลาง",r6_serv:"4 ที่",
+    r7_tag:"ใช้ชีสพาปริก้า · 20 นาที",r7_title:"นาโชซอสชีสพาปริก้า",
+    r7_desc:"ละลายชีสพาปริก้า Cia Vegetal ราดบนนาโชกรอบ เสิร์ฟพร้อมฮาลาเปโนและกัวคาโมเล",
+    r7_time:"20 นาที",r7_diff:"ง่าย",r7_serv:"4 ที่",
+    r8_tag:"ใช้มันเตกานา · 50 นาที",r8_title:"เค้กแครอทกับฟรอสติ้งมันเตกานา",
+    r8_desc:"เค้กแครอทวีแกนชุ่มชื้นกับฟรอสติ้งครีมีจากมันเตกานาและโกโก้",
+    r8_time:"50 นาที",r8_diff:"ปานกลาง",r8_serv:"8 ชิ้น",
+    r9_tag:"ใช้ชีสออริจินัล · 55 นาที",r9_title:"คีชผักโขมชีสออริจินัล",
+    r9_desc:"เปลือกพายกรอบ ไส้ผักโขมครีมี และชีสออริจินัล Cia Vegetal",
+    r9_time:"55 นาที",r9_diff:"ปานกลาง",r9_serv:"6 ที่",
+    r10_tag:"ใช้มันเตกานา · 20 นาที",r10_title:"บรุสเกตตามันเตกานากับมะเขือเทศคอนฟิต",
+    r10_desc:"ขนมปังชั้นดีทาด้วยมันเตกานา โรยด้วยมะเขือเทศเชอรี่คอนฟิตและโหระพาสด",
+    r10_time:"20 นาที",r10_diff:"ง่าย",r10_serv:"4 ที่",
+    r11_tag:"ใช้ชีสออริจินัล · 75 นาที",r11_title:"ลาซานญ่าโบโลเนสถั่วเลนทิลชีส",
+    r11_desc:"ชั้นพาสต้า ซอสถั่วเลนทิลเข้มข้น กราแตงชีสออริจินัล Cia Vegetal",
+    r11_time:"75 นาที",r11_diff:"ขั้นสูง",r11_serv:"6 ที่",
+    r12_tag:"ใช้มันเตกานาและชีส · 30 นาที",r12_title:"เครปโรลชีสรมควัน",
+    r12_desc:"เครปบางๆ จากมันเตกานาสอดไส้ชีสรมควัน Cia Vegetal และผักโขม",
+    r12_time:"30 นาที",r12_diff:"ปานกลาง",r12_serv:"3 ที่",
+    r13_tag:"ใช้ชีสพาปริก้า · 25 นาที",r13_title:"ฟองดูชีสพาปริก้าวีแกน",
+    r13_desc:"ละลายชีสพาปริก้า Cia Vegetal กับไวน์ขาว กระเทียม และลูกจันทน์เทศ จิ้มขนมปัง ผัก และผลไม้",
+    r13_time:"25 นาที",r13_diff:"ง่าย",r13_serv:"4 ที่",
+    historia:"ประวัติของเรา",produtos:"ผลิตภัณฑ์",receitas:"สูตรอาหาร",onde:"ซื้อที่ไหน",contato:"ติดต่อ",
+    hero_eyebrow:"การหมักแม่นยำ · ผลิตด้วยวัตถุดิบบราซิล",
+    hero_h1:"ชีสแพลนต์เบส<br>ที่ <em>ละลายจริงๆ</em>",
+    hero_desc:"ทำจากมะม่วงหิมพานต์บราซิลด้วยการหมักแม่นยำ ปราศจากผลิตภัณฑ์นม ปราศจากกลูเตน ปราศจากสารสังเคราะห์ แค่รสชาติจริงๆ",
+    ver_produtos:"ดูผลิตภัณฑ์",nossa_historia:"เกี่ยวกับเรา",linha_produtos:"สายผลิตภัณฑ์",
+    prove_diferenca:"ลอง<em>ความแตกต่าง</em>",onde_comprar_btn:"ซื้อที่ไหน",
+    manteiga_vegetal:"เนยแพลนต์เบส",
+    mantegana_desc:"หมักจากมะม่วงหิมพานต์ ปราศจากสารแต่งกลิ่นรส ทา ปรุง ประทับใจ — เหมือนเนยจริงทุกอย่าง",
+    queijo_vegetal:"ชีสแพลนต์เบส",original_name:"ออริจินัล",
+    original_desc:"ใช้ประจำวัน ละลายเหมือนชีสแบบดั้งเดิม ใช้กับพิซซ่า แซนด์วิช กราแตง — ทุกสูตร",
+    smoked_name:"รมควัน &amp; คิวเมล",
+    smoked_desc:"รมควันด้วยไม้ของตัวเอง เมล็ดคิวเมล รสชาติโดดเด่นสำหรับผู้ที่ชอบรสชาติพิเศษ",
+    paprika_name:"พาปริก้า",
+    paprika_desc:"เผ็ดอ่อนๆ ด้วยพาปริก้าธรรมชาติ ดีที่สุดเมื่อละลายเป็นครีม ประสบการณ์ที่ไม่ลืม",
+    conheca:"ดูเพิ่มเติม →",
+    melt_title:"วิทยาศาสตร์ที่สร้าง<em>ความแตกต่าง</em>",
+    melt_desc:"โครงสร้างโปรตีนที่สร้างโดยการหมักแม่นยำทำซ้ำพฤติกรรมของชีสและเนยแบบดั้งเดิม ไม่มีกลอุบาย มีแค่วิทยาศาสตร์และมะม่วงหิมพานต์บราซิล",
+    nossa_tecnologia:"เรียนรู้เทคโนโลยีของเรา",
+    sempre_livre:"ปราศจากเสมอ:",
+    free_laticinios:"ผลิตภัณฑ์นม",free_lactose:"แลคโตส",free_gluten:"กลูเตน",
+    free_aromas:"สารแต่งกลิ่นรส",free_trans:"ไขมันทรานส์",free_conserv:"สารกันบูด",
+    free_ogm:"GMO",free_colesterol:"คอเลสเตอรอล",
+    tech_title:"เทคโนโลยีของเรา",
+    tech_intro:"Cia Vegetal พัฒนากระบวนการหมักแม่นยำเฉพาะที่แปลงวัตถุดิบบราซิล 100% ให้เป็นทางเลือกจากพืชที่ละลาย ทา และมีรสชาติเหมือนผลิตภัณฑ์นมแบบดั้งเดิมจริงๆ",
+    tech_s1_title:"การหมักแม่นยำ",tech_s1_body:"กระบวนการของเราใช้สายพันธุ์จุลินทรีย์ที่คัดเลือกมาหมักมะม่วงหิมพานต์บราซิล สร้างโครงสร้างโปรตีนและไขมันที่จำลองพฤติกรรมของชีสและเนยแบบดั้งเดิมเมื่อถูกความร้อน",
+    tech_s2_title:"วัตถุดิบบราซิล 100%",tech_s2_body:"วัตถุดิบทุกอย่างมาจากแผ่นดินบราซิล: มะม่วงหิมพานต์จากภาคตะวันออกเฉียงเหนือ แป้งมันสำปะหลัง น้ำมันทานตะวัน RSPO ไม่มีการนำเข้า ไม่มีการประนีประนอม",
+    tech_s3_title:"ไม่มีสิ่งสังเคราะห์",tech_s3_body:"ไม่มีสารแต่งกลิ่นรส ไม่มีไขมันทรานส์ ไม่มีสารกันบูด ไม่มี GMO การหมักแม่นยำคือ 'ความลับ' เดียว — และมันก็ไม่ใช่ความลับ: วิทยาศาสตร์บริสุทธิ์เพื่อรสชาติ",
+    tech_s4_title:"ละลายจริง",tech_s4_body:"ด้วยโครงสร้างโมเลกุลที่สร้างโดยการหมัก ชีสของเราละลาย กราแตง และยืดเหมือนชีสแบบดั้งเดิม ลูกค้าไม่สามารถแยกแยะได้ในการทดสอบแบบ blind test",
+    r14_tag:"เปา เดอ เคย์จู · 15 นาที",r14_title:"เปา เดอ เคย์จูบนเตาวาฟเฟิล",
+    r14_desc:"อบเปา เดอ เคย์จูวีแกน Cia Vegetal บนเตาวาฟเฟิล เสิร์ฟพร้อมซอสช็อกโกแลต",
+    r14_time:"15 นาที",r14_diff:"ง่าย",r14_serv:"4 ชิ้น"
   }
 };
 
@@ -1332,7 +1427,7 @@ function scrollProds(dir) {
   if (grid) grid.scrollBy({ left: dir * 300, behavior: 'smooth' });
 }
 
-const SEO_META_LANGS = {"pt": {"desc": "Cia Vegetal \u2014 queijos e manteiga plant-based 100% veganos, sem lactose, sem colesterol, sem gl\u00faten. Fermenta\u00e7\u00e3o de precis\u00e3o com ingredientes brasileiros. Dieta plant-based e vegana acess\u00edvel para toda a fam\u00edlia.", "kw": "plant-based, vegano, sem lactose, sem colesterol, queijo vegano, manteiga vegana, dieta vegana, dieta plant-based, sem gl\u00faten, sem latic\u00ednios, fermenta\u00e7\u00e3o de precis\u00e3o, ingredientes brasileiros, Cia Vegetal, Companhia Vegetal"}, "en": {"desc": "Cia Vegetal \u2014 100% plant-based cheeses and butter, vegan, lactose-free, cholesterol-free, gluten-free. Precision fermented with Brazilian ingredients. Plant-based diet and vegan diet for the whole family.", "kw": "plant-based, vegan, lactose-free, cholesterol-free, vegan cheese, vegan butter, vegan diet, plant-based diet, gluten-free, dairy-free, precision fermentation, Brazilian ingredients, Cia Vegetal"}, "es": {"desc": "Cia Vegetal \u2014 quesos y mantequilla plant-based 100% veganos, sin lactosa, sin colesterol, sin gluten. Fermentaci\u00f3n de precisi\u00f3n con ingredientes brasile\u00f1os. Dieta vegana y plant-based para toda la familia.", "kw": "plant-based, vegano, sin lactosa, sin colesterol, queso vegano, mantequilla vegana, dieta vegana, dieta plant-based, sin gluten, sin l\u00e1cteos, fermentaci\u00f3n de precisi\u00f3n, ingredientes brasile\u00f1os"}, "zh": {"desc": "\u690d\u7269\u516c\u53f8\u2014\u2014100%\u7eaf\u7d20\u5976\u916a\u548c\u9ec4\u6cb9\uff0c\u65e0\u4e73\u7cd6\uff0c\u65e0\u80c6\u56fa\u9187\uff0c\u65e0\u9eb8\u8d28\u3002\u5df4\u897f\u539f\u6599\u7cbe\u51c6\u53d1\u9175\u3002\u9002\u5408\u5168\u5bb6\u7684\u690d\u7269\u6027\u996e\u98df\u548c\u7eaf\u7d20\u996e\u98df\u3002", "kw": "\u690d\u7269\u6027\uff0c\u7eaf\u7d20\uff0c\u65e0\u4e73\u7cd6\uff0c\u65e0\u80c6\u56fa\u9187\uff0c\u7eaf\u7d20\u5976\u916a\uff0c\u7eaf\u7d20\u9ec4\u6cb9\uff0c\u7eaf\u7d20\u996e\u98df\uff0c\u690d\u7269\u6027\u996e\u98df\uff0c\u65e0\u9eb8\u8d28\uff0c\u65e0\u4e73\u5236\u54c1\uff0c\u7cbe\u51c6\u53d1\u9175\uff0c\u5df4\u897f\u539f\u6599"}, "ja": {"desc": "\u30b7\u30a2\u30fb\u30f4\u30a7\u30b8\u30a7\u30bf\u30eb \u2014 100%\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\u306e\u30c1\u30fc\u30ba\u3068\u30d0\u30bf\u30fc\u3001\u30f4\u30a3\u30fc\u30ac\u30f3\u3001\u4e73\u7cd6\u30d5\u30ea\u30fc\u3001\u30b3\u30ec\u30b9\u30c6\u30ed\u30fc\u30eb\u30d5\u30ea\u30fc\u3001\u30b0\u30eb\u30c6\u30f3\u30d5\u30ea\u30fc\u3002\u30d6\u30e9\u30b8\u30eb\u7523\u539f\u6750\u6599\u306e\u7cbe\u5bc6\u767a\u9175\u3002\u5bb6\u65cf\u5168\u54e1\u306e\u305f\u3081\u306e\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\u98df\u3068\u30f4\u30a3\u30fc\u30ac\u30f3\u98df\u3002", "kw": "\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\uff0c\u4e73\u7cd6\u30d5\u30ea\u30fc\uff0c\u30b3\u30ec\u30b9\u30c6\u30ed\u30fc\u30eb\u30d5\u30ea\u30fc\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\u30c1\u30fc\u30ba\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\u30d0\u30bf\u30fc\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\u98df\uff0c\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\u98df\uff0c\u30b0\u30eb\u30c6\u30f3\u30d5\u30ea\u30fc\uff0c\u4e73\u88fd\u54c1\u30d5\u30ea\u30fc\uff0c\u7cbe\u5bc6\u767a\u9175\uff0c\u30d6\u30e9\u30b8\u30eb\u7523\u539f\u6599"}, "mn": {"desc": "Cia Vegetal \u2014 100% \u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0433\u0430\u0440\u0430\u043b\u0442\u0430\u0439 \u0431\u044f\u0441\u043b\u0430\u0433 \u0431\u0430 \u043c\u0430\u0441\u043b\u043e, \u0432\u0435\u0433\u0430\u043d, \u043b\u0430\u043a\u0442\u043e\u0437\u0433\u04af\u0439, \u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d\u0437\u0433\u04af\u0439, \u0433\u043b\u044e\u0442\u0435\u043d\u0433\u04af\u0439. \u0411\u0440\u0430\u0437\u0438\u043b\u044b\u043d \u043d\u0430\u0439\u0440\u043b\u0430\u0433\u0430\u0430\u0440 \u043d\u0430\u0440\u0438\u0439\u0432\u0447\u043b\u0430\u043b\u044b\u043d \u0438\u0441\u0433\u044d\u043b\u0442. \u0411\u04af\u0445 \u0433\u044d\u0440 \u0431\u04af\u043b\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0441\u0430\u043d \u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0434\u0438\u0435\u0442 \u0431\u0430 \u0432\u0435\u0433\u0430\u043d \u0434\u0438\u0435\u0442.", "kw": "\u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0433\u0430\u0440\u0430\u043b\u0442\u0430\u0439, \u0432\u0435\u0433\u0430\u043d, \u043b\u0430\u043a\u0442\u043e\u0437\u0433\u04af\u0439, \u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d\u0437\u0433\u04af\u0439, \u0432\u0435\u0433\u0430\u043d \u0431\u044f\u0441\u043b\u0430\u0433, \u0432\u0435\u0433\u0430\u043d \u043c\u0430\u0441\u043b\u043e, \u0432\u0435\u0433\u0430\u043d \u0434\u0438\u0435\u0442, \u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0434\u0438\u0435\u0442, \u0433\u043b\u044e\u0442\u0435\u043d\u0433\u04af\u0439, \u0441\u04af\u04af\u0433\u04af\u0439, \u043d\u0430\u0440\u0438\u0439\u0432\u0447\u043b\u0430\u043b\u044b\u043d \u0438\u0441\u0433\u044d\u043b\u0442, \u0411\u0440\u0430\u0437\u0438\u043b\u044b\u043d \u043d\u0430\u0439\u0440\u043b\u0430\u0433\u0430"}, "ko": {"desc": "Cia Vegetal \u2014 100% \uc2dd\ubb3c\uc131 \uce58\uc988\uc640 \ubc84\ud130, \ube44\uac74, \uc720\ub2f9 \ubb34\ud568\uc720, \ucf5c\ub808\uc2a4\ud14c\ub864 \ubb34\ud568\uc720, \uae00\ub8e8\ud150 \ud504\ub9ac. \ube0c\ub77c\uc9c8 \uc6d0\ub8cc \uc815\ubc00 \ubc1c\ud6a8. \uc628 \uac00\uc871\uc744 \uc704\ud55c \uc2dd\ubb3c\uc131 \uc2dd\ub2e8\uacfc \ube44\uac74 \uc2dd\ub2e8.", "kw": "\uc2dd\ubb3c\uc131, \ube44\uac74, \uc720\ub2f9 \ubb34\ud568\uc720, \ucf5c\ub808\uc2a4\ud14c\ub864 \ubb34\ud568\uc720, \ube44\uac74 \uce58\uc988, \ube44\uac74 \ubc84\ud130, \ube44\uac74 \uc2dd\ub2e8, \uc2dd\ubb3c\uc131 \uc2dd\ub2e8, \uae00\ub8e8\ud150 \ud504\ub9ac, \uc720\uc81c\ud488 \ubb34\ud568\uc720, \uc815\ubc00 \ubc1c\ud6a8, \ube0c\ub77c\uc9c8 \uc6d0\ub8cc"}, "ar": {"desc": "Cia Vegetal \u2014 \u062c\u0628\u0646 \u0648\u0632\u0628\u062f\u0629 \u0646\u0628\u0627\u062a\u064a\u0629 100%\u060c \u0646\u0628\u0627\u062a\u064a\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0644\u0627\u0643\u062a\u0648\u0632\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0643\u0648\u0644\u0633\u062a\u0631\u0648\u0644\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u063a\u0644\u0648\u062a\u064a\u0646. \u062a\u062e\u0645\u064a\u0631 \u062f\u0642\u064a\u0642 \u0628\u0645\u0643\u0648\u0646\u0627\u062a \u0628\u0631\u0627\u0632\u064a\u0644\u064a\u0629. \u0646\u0638\u0627\u0645 \u063a\u0630\u0627\u0626\u064a \u0646\u0628\u0627\u062a\u064a \u0644\u0643\u0644 \u0627\u0644\u0639\u0627\u0626\u0644\u0629.", "kw": "\u0646\u0628\u0627\u062a\u064a\u060c \u0641\u064a\u063a\u0627\u0646\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0644\u0627\u0643\u062a\u0648\u0632\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0643\u0648\u0644\u0633\u062a\u0631\u0648\u0644\u060c \u062c\u0628\u0646 \u0646\u0628\u0627\u062a\u064a\u060c \u0632\u0628\u062f\u0629 \u0646\u0628\u0627\u062a\u064a\u0629\u060c \u0646\u0638\u0627\u0645 \u063a\u0630\u0627\u0626\u064a \u0646\u0628\u0627\u062a\u064a\u060c \u063a\u0630\u0627\u0621 \u0646\u0628\u0627\u062a\u064a\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u063a\u0644\u0648\u062a\u064a\u0646\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0623\u0644\u0628\u0627\u0646\u060c \u062a\u062e\u0645\u064a\u0631 \u062f\u0642\u064a\u0642\u060c \u0645\u0643\u0648\u0646\u0627\u062a \u0628\u0631\u0627\u0632\u064a\u0644\u064a\u0629"}};
+const SEO_META_LANGS = {"pt": {"desc": "Cia Vegetal \u2014 queijos e manteiga plant-based 100% veganos, sem lactose, sem colesterol, sem gl\u00faten. Fermenta\u00e7\u00e3o de precis\u00e3o com ingredientes brasileiros. Dieta plant-based e vegana acess\u00edvel para toda a fam\u00edlia.", "kw": "plant-based, vegano, sem lactose, sem colesterol, queijo vegano, manteiga vegana, dieta vegana, dieta plant-based, sem gl\u00faten, sem latic\u00ednios, fermenta\u00e7\u00e3o de precis\u00e3o, ingredientes brasileiros, Cia Vegetal, Companhia Vegetal"}, "en": {"desc": "Cia Vegetal \u2014 100% plant-based cheeses and butter, vegan, lactose-free, cholesterol-free, gluten-free. Precision fermented with Brazilian ingredients. Plant-based diet and vegan diet for the whole family.", "kw": "plant-based, vegan, lactose-free, cholesterol-free, vegan cheese, vegan butter, vegan diet, plant-based diet, gluten-free, dairy-free, precision fermentation, Brazilian ingredients, Cia Vegetal"}, "es": {"desc": "Cia Vegetal \u2014 quesos y mantequilla plant-based 100% veganos, sin lactosa, sin colesterol, sin gluten. Fermentaci\u00f3n de precisi\u00f3n con ingredientes brasile\u00f1os. Dieta vegana y plant-based para toda la familia.", "kw": "plant-based, vegano, sin lactosa, sin colesterol, queso vegano, mantequilla vegana, dieta vegana, dieta plant-based, sin gluten, sin l\u00e1cteos, fermentaci\u00f3n de precisi\u00f3n, ingredientes brasile\u00f1os"}, "zh": {"desc": "\u690d\u7269\u516c\u53f8\u2014\u2014100%\u7eaf\u7d20\u5976\u916a\u548c\u9ec4\u6cb9\uff0c\u65e0\u4e73\u7cd6\uff0c\u65e0\u80c6\u56fa\u9187\uff0c\u65e0\u9eb8\u8d28\u3002\u5df4\u897f\u539f\u6599\u7cbe\u51c6\u53d1\u9175\u3002\u9002\u5408\u5168\u5bb6\u7684\u690d\u7269\u6027\u996e\u98df\u548c\u7eaf\u7d20\u996e\u98df\u3002", "kw": "\u690d\u7269\u6027\uff0c\u7eaf\u7d20\uff0c\u65e0\u4e73\u7cd6\uff0c\u65e0\u80c6\u56fa\u9187\uff0c\u7eaf\u7d20\u5976\u916a\uff0c\u7eaf\u7d20\u9ec4\u6cb9\uff0c\u7eaf\u7d20\u996e\u98df\uff0c\u690d\u7269\u6027\u996e\u98df\uff0c\u65e0\u9eb8\u8d28\uff0c\u65e0\u4e73\u5236\u54c1\uff0c\u7cbe\u51c6\u53d1\u9175\uff0c\u5df4\u897f\u539f\u6599"}, "ja": {"desc": "\u30b7\u30a2\u30fb\u30f4\u30a7\u30b8\u30a7\u30bf\u30eb \u2014 100%\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\u306e\u30c1\u30fc\u30ba\u3068\u30d0\u30bf\u30fc\u3001\u30f4\u30a3\u30fc\u30ac\u30f3\u3001\u4e73\u7cd6\u30d5\u30ea\u30fc\u3001\u30b3\u30ec\u30b9\u30c6\u30ed\u30fc\u30eb\u30d5\u30ea\u30fc\u3001\u30b0\u30eb\u30c6\u30f3\u30d5\u30ea\u30fc\u3002\u30d6\u30e9\u30b8\u30eb\u7523\u539f\u6750\u6599\u306e\u7cbe\u5bc6\u767a\u9175\u3002\u5bb6\u65cf\u5168\u54e1\u306e\u305f\u3081\u306e\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\u98df\u3068\u30f4\u30a3\u30fc\u30ac\u30f3\u98df\u3002", "kw": "\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\uff0c\u4e73\u7cd6\u30d5\u30ea\u30fc\uff0c\u30b3\u30ec\u30b9\u30c6\u30ed\u30fc\u30eb\u30d5\u30ea\u30fc\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\u30c1\u30fc\u30ba\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\u30d0\u30bf\u30fc\uff0c\u30f4\u30a3\u30fc\u30ac\u30f3\u98df\uff0c\u30d7\u30e9\u30f3\u30c8\u30d9\u30fc\u30b9\u98df\uff0c\u30b0\u30eb\u30c6\u30f3\u30d5\u30ea\u30fc\uff0c\u4e73\u88fd\u54c1\u30d5\u30ea\u30fc\uff0c\u7cbe\u5bc6\u767a\u9175\uff0c\u30d6\u30e9\u30b8\u30eb\u7523\u539f\u6599"}, "mn": {"desc": "Cia Vegetal \u2014 100% \u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0433\u0430\u0440\u0430\u043b\u0442\u0430\u0439 \u0431\u044f\u0441\u043b\u0430\u0433 \u0431\u0430 \u043c\u0430\u0441\u043b\u043e, \u0432\u0435\u0433\u0430\u043d, \u043b\u0430\u043a\u0442\u043e\u0437\u0433\u04af\u0439, \u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d\u0437\u0433\u04af\u0439, \u0433\u043b\u044e\u0442\u0435\u043d\u0433\u04af\u0439. \u0411\u0440\u0430\u0437\u0438\u043b\u044b\u043d \u043d\u0430\u0439\u0440\u043b\u0430\u0433\u0430\u0430\u0440 \u043d\u0430\u0440\u0438\u0439\u0432\u0447\u043b\u0430\u043b\u044b\u043d \u0438\u0441\u0433\u044d\u043b\u0442. \u0411\u04af\u0445 \u0433\u044d\u0440 \u0431\u04af\u043b\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0441\u0430\u043d \u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0434\u0438\u0435\u0442 \u0431\u0430 \u0432\u0435\u0433\u0430\u043d \u0434\u0438\u0435\u0442.", "kw": "\u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0433\u0430\u0440\u0430\u043b\u0442\u0430\u0439, \u0432\u0435\u0433\u0430\u043d, \u043b\u0430\u043a\u0442\u043e\u0437\u0433\u04af\u0439, \u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d\u0437\u0433\u04af\u0439, \u0432\u0435\u0433\u0430\u043d \u0431\u044f\u0441\u043b\u0430\u0433, \u0432\u0435\u0433\u0430\u043d \u043c\u0430\u0441\u043b\u043e, \u0432\u0435\u0433\u0430\u043d \u0434\u0438\u0435\u0442, \u0443\u0440\u0433\u0430\u043c\u043b\u044b\u043d \u0434\u0438\u0435\u0442, \u0433\u043b\u044e\u0442\u0435\u043d\u0433\u04af\u0439, \u0441\u04af\u04af\u0433\u04af\u0439, \u043d\u0430\u0440\u0438\u0439\u0432\u0447\u043b\u0430\u043b\u044b\u043d \u0438\u0441\u0433\u044d\u043b\u0442, \u0411\u0440\u0430\u0437\u0438\u043b\u044b\u043d \u043d\u0430\u0439\u0440\u043b\u0430\u0433\u0430"}, "ko": {"desc": "Cia Vegetal \u2014 100% \uc2dd\ubb3c\uc131 \uce58\uc988\uc640 \ubc84\ud130, \ube44\uac74, \uc720\ub2f9 \ubb34\ud568\uc720, \ucf5c\ub808\uc2a4\ud14c\ub864 \ubb34\ud568\uc720, \uae00\ub8e8\ud150 \ud504\ub9ac. \ube0c\ub77c\uc9c8 \uc6d0\ub8cc \uc815\ubc00 \ubc1c\ud6a8. \uc628 \uac00\uc871\uc744 \uc704\ud55c \uc2dd\ubb3c\uc131 \uc2dd\ub2e8\uacfc \ube44\uac74 \uc2dd\ub2e8.", "kw": "\uc2dd\ubb3c\uc131, \ube44\uac74, \uc720\ub2f9 \ubb34\ud568\uc720, \ucf5c\ub808\uc2a4\ud14c\ub864 \ubb34\ud568\uc720, \ube44\uac74 \uce58\uc988, \ube44\uac74 \ubc84\ud130, \ube44\uac74 \uc2dd\ub2e8, \uc2dd\ubb3c\uc131 \uc2dd\ub2e8, \uae00\ub8e8\ud150 \ud504\ub9ac, \uc720\uc81c\ud488 \ubb34\ud568\uc720, \uc815\ubc00 \ubc1c\ud6a8, \ube0c\ub77c\uc9c8 \uc6d0\ub8cc"}, "ar": {"desc": "Cia Vegetal \u2014 \u062c\u0628\u0646 \u0648\u0632\u0628\u062f\u0629 \u0646\u0628\u0627\u062a\u064a\u0629 100%\u060c \u0646\u0628\u0627\u062a\u064a\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0644\u0627\u0643\u062a\u0648\u0632\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0643\u0648\u0644\u0633\u062a\u0631\u0648\u0644\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u063a\u0644\u0648\u062a\u064a\u0646. \u062a\u062e\u0645\u064a\u0631 \u062f\u0642\u064a\u0642 \u0628\u0645\u0643\u0648\u0646\u0627\u062a \u0628\u0631\u0627\u0632\u064a\u0644\u064a\u0629. \u0646\u0638\u0627\u0645 \u063a\u0630\u0627\u0626\u064a \u0646\u0628\u0627\u062a\u064a \u0644\u0643\u0644 \u0627\u0644\u0639\u0627\u0626\u0644\u0629.", "kw": "\u0646\u0628\u0627\u062a\u064a\u060c \u0641\u064a\u063a\u0627\u0646\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0644\u0627\u0643\u062a\u0648\u0632\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u0643\u0648\u0644\u0633\u062a\u0631\u0648\u0644\u060c \u062c\u0628\u0646 \u0646\u0628\u0627\u062a\u064a\u060c \u0632\u0628\u062f\u0629 \u0646\u0628\u0627\u062a\u064a\u0629\u060c \u0646\u0638\u0627\u0645 \u063a\u0630\u0627\u0626\u064a \u0646\u0628\u0627\u062a\u064a\u060c \u063a\u0630\u0627\u0621 \u0646\u0628\u0627\u062a\u064a\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0627\u0644\u063a\u0644\u0648\u062a\u064a\u0646\u060c \u062e\u0627\u0644\u064d \u0645\u0646 \u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0623\u0644\u0628\u0627\u0646\u060c \u062a\u062e\u0645\u064a\u0631 \u062f\u0642\u064a\u0642\u060c \u0645\u0643\u0648\u0646\u0627\u062a \u0628\u0631\u0627\u0632\u064a\u0644\u064a\u0629"}, "th": {"desc": "Cia Vegetal — ชีสและเนยแพลนต์เบส 100% วีแกน ปราศจากแลคโตส ปราศจากคอเลสเตอรอล ปราศจากกลูเตน การหมักแม่นยำด้วยวัตถุดิบบราซิล อาหารพืชและวีแกนสำหรับทุกครอบครัว", "kw": "พืช, วีแกน, ปราศจากแลคโตส, ปราศจากคอเลสเตอรอล, ชีสวีแกน, เนยวีแกน, อาหารวีแกน, อาหารพืช, ปราศจากกลูเตน, ปราศจากนม, การหมักแม่นยำ, วัตถุดิบบราซิล"}};
 
 function setLang(l) {
   // Update SEO meta tags
@@ -1359,12 +1454,12 @@ function setLang(l) {
   });
   // Lang buttons
   document.querySelectorAll('.lang-bar button').forEach(btn => {
-    const map = {'PT':'pt','EN':'en','ES':'es','中文':'zh','日本語':'ja','монгол':'mn','한국어':'ko','العربية':'ar'};
+    const map = {'PT':'pt','EN':'en','ES':'es','中文':'zh','日本語':'ja','монгол':'mn','한국어':'ko','العربية':'ar','ภาษาไทย':'th'};
     const bl = map[btn.textContent.trim()];
     btn.classList.toggle('active', bl === l);
   });
   // HTML lang attr
-  const htmlLang = {pt:'pt-BR',en:'en',es:'es',zh:'zh-CN',ja:'ja',mn:'mn',ko:'ko',ar:'ar'};
+  const htmlLang = {pt:'pt-BR',en:'en',es:'es',zh:'zh-CN',ja:'ja',mn:'mn',ko:'ko',ar:'ar',th:'th'};
   document.documentElement.lang = htmlLang[l] || l;
   // RTL support for Arabic
   document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
@@ -1396,10 +1491,12 @@ function setLang(l) {
   const ctaJa = document.getElementById('cta-ja');
   const ctaKo = document.getElementById('cta-ko');
   const ctaIntl = document.getElementById('cta-intl');
+  const ctaTh = document.getElementById('cta-th');
   if (ctaPt) ctaPt.style.display = l === 'pt' ? 'flex' : 'none';
   if (ctaJa) ctaJa.style.display = l === 'ja' ? 'flex' : 'none';
   if (ctaKo) ctaKo.style.display = l === 'ko' ? 'flex' : 'none';
-  if (ctaIntl) ctaIntl.style.display = (l !== 'pt' && l !== 'ja' && l !== 'ko') ? 'flex' : 'none';
+  if (ctaTh) ctaTh.style.display = l === 'th' ? 'flex' : 'none';
+  if (ctaIntl) ctaIntl.style.display = (l !== 'pt' && l !== 'ja' && l !== 'ko' && l !== 'th') ? 'flex' : 'none';
   // B2B export mailto: PT=falecom, others=sales
   const ptEmail = 'mailto:falecom@ciavegetal.com.br';
   const intlEmail = 'mailto:sales@ciavegetal.com.br';
