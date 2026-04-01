@@ -1496,6 +1496,8 @@ function setLang(l) {
   if (ctaJa) ctaJa.style.display = l === 'ja' ? 'flex' : 'none';
   if (ctaKo) ctaKo.style.display = l === 'ko' ? 'flex' : 'none';
   if (ctaTh) ctaTh.style.display = l === 'th' ? 'flex' : 'none';
+  // Footer social: show/hide LINE-TH based on language
+  document.querySelectorAll('.footer-line-th').forEach(el => { el.style.display = l === 'th' ? '' : 'none'; });
   if (ctaIntl) ctaIntl.style.display = (l !== 'pt' && l !== 'ja' && l !== 'ko' && l !== 'th') ? 'flex' : 'none';
   // B2B export mailto: PT=falecom, others=sales
   const ptEmail = 'mailto:falecom@ciavegetal.com.br';
