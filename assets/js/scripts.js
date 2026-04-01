@@ -1715,9 +1715,57 @@ window.addEventListener('scroll', function() {
 window.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const langParam = params.get('lang');
+
   if (langParam && T[langParam]) {
+    // Explicit ?lang= in URL always wins — user or link chose it
     setLang(langParam);
+    return;
   }
+
+  // Auto-detect language from browser/OS locale (no API, no latency)
+  // Respects prior explicit choice stored in localStorage
+  const stored = localStorage.getItem('cv_lang');
+  if (stored && T[stored]) {
+    setLang(stored);
+    return;
+  }
+
+  // Map browser locale → site language
+  const localeMap = {
+    'pt': 'pt', 'pt-BR': 'pt', 'pt-PT': 'pt',
+    'en': 'en', 'en-US': 'en', 'en-GB': 'en', 'en-AU': 'en', 'en-SG': 'en', 'en-MY': 'en', 'en-HK': 'en',
+    'es': 'es', 'es-419': 'es',
+    'zh': 'zh', 'zh-CN': 'zh', 'zh-Hans': 'zh',
+    'zh-TW': 'zh', 'zh-HK': 'zh', 'zh-Hant': 'zh',
+    'ja': 'ja', 'ja-JP': 'ja',
+    'ko': 'ko', 'ko-KR': 'ko',
+    'mn': 'mn', 'mn-MN': 'mn',
+    'ar': 'ar', 'ar-SA': 'ar', 'ar-AE': 'ar', 'ar-EG': 'ar',
+    'th': 'th', 'th-TH': 'th',
+    'id': 'id', 'id-ID': 'id',
+    'ms': 'id', 'ms-MY': 'id', 'ms-SG': 'id',
+  };
+
+  const preferred = navigator.languages || [navigator.language || 'pt'];
+  for (const locale of preferred) {
+    // Try exact match first, then just the language prefix
+    const detected = localeMap[locale] || localeMap[locale.split('-')[0]];
+    if (detected && T[detected]) {
+      setLang(detected);
+      return;
+    }
+  }
+  // Default: Portuguese
+  setLang('pt');
+});
+
+// Persist explicit user choice when they click a lang button
+document.querySelectorAll('.lang-bar button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const map = {'PT':'pt','EN':'en','ES':'es','中文':'zh','日本語':'ja','монгол':'mn','한국어':'ko','العربية':'ar','ภาษาไทย':'th','Bahasa':'id'};
+    const chosen = map[btn.textContent.trim()];
+    if (chosen) localStorage.setItem('cv_lang', chosen);
+  });
 });
 
 // Safety net: force all hero + reveal elements visible after 1.5s
