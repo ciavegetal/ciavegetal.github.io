@@ -1485,7 +1485,7 @@ copyright:"· 2026 Companhia Vegetal · برازيليا، DF، البرازيل
     p4_title:"Lezat Nomor Satu",p4_body:"Kesehatan penting, tapi kesenangan adalah keharusan. Tidak ada pengorbanan rasa. Tidak pernah.",
     p5_title:"Terjangkau untuk Semua",p5_body:"Nutrisi berkualitas bukan kemewahan. Harga adil agar lebih banyak keluarga bisa memilih nabati.",
     p6_title:"Obsesi Kualitas Keluarga",p6_body:"Setiap produk dibuat seolah akan disajikan di meja kami sendiri. Pelanggan merasakan kecintaan itu.",
-    por_que:"Por Quê Cia Vegetal",
+    por_que:"Mengapa Cia Vegetal",
     receitas_label:"Resep",
     ver_todas:"Lihat semua →",
     ver_menos:"Tutup ↑",
