@@ -1468,7 +1468,10 @@ copyright:"· 2026 Companhia Vegetal · برازيليا، DF، البرازيل
     p4_title:"Lezat Nomor Satu",p4_body:"Kesehatan penting, tapi kesenangan adalah keharusan. Tidak ada pengorbanan rasa. Tidak pernah.",
     p5_title:"Terjangkau untuk Semua",p5_body:"Nutrisi berkualitas bukan kemewahan. Harga adil agar lebih banyak keluarga bisa memilih nabati.",
     p6_title:"Obsesi Kualitas Keluarga",p6_body:"Setiap produk dibuat seolah akan disajikan di meja kami sendiri. Pelanggan merasakan kecintaan itu.",
-    ver_todas:"Lihat semua →"
+    ver_todas:"Lihat semua →",
+    ver_menos:"Tutup ↑",
+    seis_compromissos:"Enam komitmen yang tidak pernah kami kompromikan",
+    pao_section_eyebrow:"Produk Unggulan"
   }
 };
 
