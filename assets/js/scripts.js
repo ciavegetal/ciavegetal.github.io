@@ -13,7 +13,8 @@ const TICKERS = {
   mn: ['100% Ургамлын','Нарийн Исгэлт','Бразилд Хийсэн','Сүүгүй','Глютенгүй','Хиймэл Амтлагчгүй','GMO Байхгүй','Жинхэнэ Хайлдаг','Бразилын Найрлага'],
   ko: ['100% 식물성','정밀 발효','브라질산','유제품 없음','글루텐 없음','인공 향료 없음','GMO 없음','진짜로 녹아요','브라질 원료'],
   ar: ['نباتي 100%','تخمير دقيق','صُنع في البرازيل','خالٍ من الألبان','خالٍ من الغلوتين','بلا نكهات صناعية','خالٍ من المعدلات','يذوب فعلاً','مكونات برازيلية'],
-  th: ['100% แพลนต์เบส','การหมักแม่นยำ','ผลิตในบราซิล','ปราศจากนม','ปราศจากกลูเตน','ไม่มีสารแต่งกลิ่นรส','ปราศจาก GMO','ละลายจริง','วัตถุดิบบราซิล']
+  th: ['100% แพลนต์เบส','การหมักแม่นยำ','ผลิตในบราซิล','ปราศจากนม','ปราศจากกลูเตน','ไม่มีสารแต่งกลิ่นรส','ปราศจาก GMO','ละลายจริง','วัตถุดิบบราซิล'],
+  id: ['100% Nabati','Fermentasi Presisi','Dibuat di Brasil','Bebas Susu','Bebas Gluten','Tanpa Perasa Buatan','Bebas GMO','Benar-benar Meleleh','Bahan Brasil']
 };
 
 const T = {
@@ -1579,7 +1580,7 @@ function setLang(l) {
     btn.classList.toggle('active', bl === l);
   });
   // HTML lang attr
-  const htmlLang = {pt:'pt-BR',en:'en',es:'es',zh:'zh-CN',ja:'ja',mn:'mn',ko:'ko',ar:'ar',th:'th'};
+  const htmlLang = {pt:'pt-BR',en:'en',es:'es',zh:'zh-CN',ja:'ja',mn:'mn',ko:'ko',ar:'ar',th:'th',id:'id'};
   document.documentElement.lang = htmlLang[l] || l;
   // RTL support for Arabic
   document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
