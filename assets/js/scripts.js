@@ -1525,16 +1525,16 @@ let lang = 'pt';
 
 // Product modal titles per language
 const MODAL_TITLES = {
-  mantegana: {pt:'Mantegana',en:'Mantegana',es:'Mantegana',zh:'Mantegana',ja:'ãƒžãƒ³ãƒ†ã‚¬ãƒŠ',mn:'ÐœÐ°Ð½Ñ‚Ð°Ð³Ð°Ð½Ð°',ko:'ë§Œí…Œê°€ë‚˜',ar:'Ù…Ø§Ù†ØªÙŠØºØ§Ù†Ø§'},
-  original:  {pt:'Original', en:'Original', es:'Original', zh:'åŽŸå‘³',     ja:'ã‚ªãƒªã‚¸ãƒŠãƒ«',mn:'ÐÐ½Ñ…Ð½Ñ‹ Ð°Ð¼Ñ‚',ko:'ì˜¤ë¦¬ì§€ë„',ar:'Ø§Ù„Ø£ØµÙ„ÙŠØ©'},
-  smoked:    {pt:'Defumado & Kümmel',en:'Smoked',es:'Ahumado',zh:'çƒŸç†',ja:'ã‚¹ãƒ¢ãƒ¼ã‚¯',mn:'Ð£Ñ‚ÑÐ°Ð½',ko:'í›ˆì œ',ar:'Ù…Ø¯Ø®Ù†'},
-  paprika:   {pt:'Páprica',  en:'Paprika', es:'Páprica',  zh:'è¾£æ¤’ç²‰',   ja:'ãƒ‘ãƒ—ãƒªã‚«', mn:'ÐŸÐ°Ð¿Ñ€Ð¸ÐºÐ°',ko:'íŒŒí”„ë¦¬ì¹´',ar:'Ø§Ù„ÙÙ„ÙÙ„ Ø§Ù„Ø­Ù„Ùˆ'}
+  mantegana: {pt:'Mantegana',en:'Mantegana',es:'Mantegana',zh:'Mantegana',ja:'ãƒžãƒ³ãƒ†ã‚¬ãƒŠ',mn:'ÐœÐ°Ð½Ñ‚Ð°Ð³Ð°Ð½Ð°',ko:'ë§Œí…Œê°€ë‚˜',ar:'Ù…Ø§Ù†ØªÙŠØºØ§Ù†Ø§',th:'Mantegana',id:'Mantegana'},
+  original:  {pt:'Original', en:'Original', es:'Original', zh:'åŽŸå‘³',     ja:'ã‚ªãƒªã‚¸ãƒŠãƒ«',mn:'ÐÐ½Ñ…Ð½Ñ‹ Ð°Ð¼Ñ‚',ko:'ì˜¤ë¦¬ì§€ë„',ar:'Ø§Ù„Ø£ØµÙ„ÙŠØ©',th:'ออริจินัล',id:'Orisinal'},
+  smoked:    {pt:'Defumado & Kümmel',en:'Smoked',es:'Ahumado',zh:'çƒŸç†',ja:'ã‚¹ãƒ¢ãƒ¼ã‚¯',mn:'Ð£Ñ‚ÑÐ°Ð½',ko:'í›ˆì œ',ar:'Ù…Ø¯Ø®Ù†',th:'รมควัน & คิวเมล',id:'Asap & Kümmel'},
+  paprika:   {pt:'Páprica',  en:'Paprika', es:'Páprica',  zh:'è¾£æ¤’ç²‰',   ja:'ãƒ‘ãƒ—ãƒªã‚«', mn:'ÐŸÐ°Ð¿Ñ€Ð¸ÐºÐ°',ko:'íŒŒí”„ë¦¬ì¹´',ar:'Ø§Ù„ÙÙ„ÙÙ„ Ø§Ù„Ø­Ù„Ùˆ',th:'พาปริก้า',id:'Paprika'}
 };
 const MODAL_TAGS = {
-  mantegana: {pt:'Manteiga Vegetal',en:'Plant-Based Butter',es:'Mantequilla Vegetal',zh:'æ¤ç‰©é»„æ²¹',ja:'æ¤ç‰©æ€§ãƒã‚¿ãƒ¼',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð¼Ð°ÑÐ»Ð¾',ko:'ì‹ë¬¼ì„± ë²„í„°',ar:'Ø²Ø¨Ø¯Ø© Ù†Ø¨Ø§ØªÙŠØ©'},
-  original:  {pt:'Queijo Vegetal',  en:'Plant-Based Cheese', es:'Queso Vegetal',zh:'æ¤ç‰©å¥¶é…ª',ja:'æ¤ç‰©æ€§ãƒãƒ¼ã‚º',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð±ÑÑÐ»Ð°Ð³',ko:'ì‹ë¬¼ì„± ì¹˜ì¦ˆ',ar:'Ø¬Ø¨Ù† Ù†Ø¨Ø§ØªÙŠ'},
-  smoked:    {pt:'Queijo Vegetal',  en:'Plant-Based Cheese', es:'Queso Vegetal',zh:'æ¤ç‰©å¥¶é…ª',ja:'æ¤ç‰©æ€§ãƒãƒ¼ã‚º',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð±ÑÑÐ»Ð°Ð³',ko:'ì‹ë¬¼ì„± ì¹˜ì¦ˆ',ar:'Ø¬Ø¨Ù† Ù†Ø¨Ø§ØªÙŠ'},
-  paprika:   {pt:'Queijo Vegetal',  en:'Plant-Based Cheese', es:'Queso Vegetal',zh:'æ¤ç‰©å¥¶é…ª',ja:'æ¤ç‰©æ€§ãƒãƒ¼ã‚º',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð±ÑÑÐ»Ø§Ð³',ko:'ì‹ë¬¼ì„± ì¹˜ì¦ˆ',ar:'Ø¬Ø¨Ù† Ù†Ø¨Ø§ØªÙŠ'}
+  mantegana: {pt:'Manteiga Vegetal',en:'Plant-Based Butter',es:'Mantequilla Vegetal',zh:'æ¤ç‰©é»„æ²¹',ja:'æ¤ç‰©æ€§ãƒã‚¿ãƒ¼',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð¼Ð°ÑÐ»Ð¾',ko:'ì‹ë¬¼ì„± ë²„í„°',ar:'Ø²Ø¨Ø¯Ø© Ù†Ø¨Ø§ØªÙŠØ©',th:'เนยแพลนต์เบส',id:'Mentega Nabati'},
+  original:  {pt:'Queijo Vegetal',  en:'Plant-Based Cheese', es:'Queso Vegetal',zh:'æ¤ç‰©å¥¶é…ª',ja:'æ¤ç‰©æ€§ãƒãƒ¼ã‚º',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð±ÑÑÐ»Ð°Ð³',ko:'ì‹ë¬¼ì„± ì¹˜ì¦ˆ',ar:'Ø¬Ø¨Ù† Ù†Ø¨Ø§ØªÙŠ',th:'ชีสแพลนต์เบส',id:'Keju Nabati'},
+  smoked:    {pt:'Queijo Vegetal',  en:'Plant-Based Cheese', es:'Queso Vegetal',zh:'æ¤ç‰©å¥¶é…ª',ja:'æ¤ç‰©æ€§ãƒãƒ¼ã‚º',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð±ÑÑÐ»Ð°Ð³',ko:'ì‹ë¬¼ì„± ì¹˜ì¦ˆ',ar:'Ø¬Ø¨Ù† Ù†Ø¨Ø§ØªÙŠ',th:'ชีสแพลนต์เบส',id:'Keju Nabati'},
+  paprika:   {pt:'Queijo Vegetal',  en:'Plant-Based Cheese', es:'Queso Vegetal',zh:'æ¤ç‰©å¥¶é…ª',ja:'æ¤ç‰©æ€§ãƒãƒ¼ã‚º',mn:'Ð£Ñ€Ð³Ð°Ð¼Ð»Ñ‹Ð½ Ð±ÑÑÐ»Ø§Ð³',ko:'ì‹ë¬¼ì„± ì¹˜ì¦ˆ',ar:'Ø¬Ø¨Ù† Ù†Ø¨Ø§ØªÙŠ',th:'ชีสแพลนต์เบส',id:'Keju Nabati'}
 };
 
 function openProdModal(id) {
