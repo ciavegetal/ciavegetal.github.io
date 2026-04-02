@@ -1378,7 +1378,7 @@ copyright:"· 2026 Companhia Vegetal · برازيليا، DF، البرازيل
     p6_title:"ความหมกมุ่นกับคุณภาพแบบครอบครัว",p6_body:"ทุกผลิตภัณฑ์ทำราวกับว่าจะเสิร์ฟที่โต๊ะของเราเอง ลูกค้าของเราลิ้มรสความใส่ใจ",
     por_que:"เหตุใดต้องเลือก Cia Vegetal",
     free_caseina:"เคซีน",
-    free_gmo:"GMO",
+    free_gmo:"ปลอดจีเอ็มโอ",
     receitas_label:"สูตรอาหาร",
     receitas_carousel_title:"เลือกสูตรอาหารของคุณ",
     seis_compromissos:"หกพันธสัญญาที่เราไม่เคยประนีประนอม",
